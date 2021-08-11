@@ -1,0 +1,35 @@
+env_name=(
+  FRUITSHARECODES
+  PETSHARECODES
+  PLANT_BEAN_SHARECODES
+  DREAM_FACTORY_SHARE_CODES
+  DDFACTORY_SHARECODES
+  JDZZ_SHARECODES
+  JDJOY_SHARECODES
+  JXNC_SHARECODES
+  BOOKSHOP_SHARECODES
+  JD_CASH_SHARECODES
+  JDSGMH_SHARECODES
+  JDCFD_SHARECODES
+  JDHEALTH_SHARECODES
+)
+var_name=(
+  ForOtherFruit
+  ForOtherPet
+  ForOtherBean
+  ForOtherDreamFactory
+  ForOtherJdFactory
+  ForOtherJdzz
+  ForOtherJoy
+  ForOtherJxnc
+  ForOtherBookShop
+  ForOtherCash
+  ForOtherSgmh
+  ForOtherCfd
+  ForOtherHealth
+)
+
+if [[ $(ls $dir_code) ]]; then
+    latest_log=$(ls -r $dir_code | head -1)
+    . $dir_code/$latest_log
+fi
