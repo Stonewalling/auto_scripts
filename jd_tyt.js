@@ -13,6 +13,9 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 
+//下方代码出现的packetId 开团助力码不知道为啥没定义
+let packetId = -1;
+
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '';
 let tytpacketId = '';
