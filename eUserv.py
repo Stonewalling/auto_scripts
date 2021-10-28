@@ -31,8 +31,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # 多个账户请使用空格隔开
-USERNAME = "ezioauditorebaobao@gmail.com"  # 用户名或邮箱
-PASSWORD = "summer19960618"  # 密码
+USERNAME = ""  # 用户名或邮箱
+PASSWORD = ""  # 密码
 
 
 # default value is TrueCaptcha demo credential,
@@ -61,10 +61,10 @@ YD_EMAIL = os.environ.get("YD_EMAIL", "")
 YD_APP_PWD = os.environ.get("YD_APP_PWD", "")  # yandex mail 使用第三方 APP 时的授权码
 
 #pushPlus 微信推送
-PUSH_KEY = '4d2717a4dbfd4bcf97ce78d8a14a12a5'
+PUSH_KEY = ''
 
 #Push+ 微信推送
-PUSH_PLUS_KEY = '4c5b319d2ec94b47ac502b8cd47d5e99'
+PUSH_PLUS_KEY = ''
 
 desp = ""#提示语
 
