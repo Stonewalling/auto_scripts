@@ -1,5 +1,4 @@
 #!/bin/env python3
-# -*- coding: utf-8 -*
 'new Env("雨露均沾")'
 '''
 var allShareCodes = [];
