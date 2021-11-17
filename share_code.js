@@ -1,8 +1,3 @@
-#!
-#!/bin/env python3
-# -*- coding: utf-8 -*
-'new Env("雨露均沾")'
-'''
 var allShareCodes = [];
 var removedShareCodes = [];
 var chetou_number = process.env.CHETOU_NUMBER ? process.env.CHETOU_NUMBER : 0
